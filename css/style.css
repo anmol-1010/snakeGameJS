@@ -1,0 +1,28 @@
+.grid{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake{
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.apple{
+    border-radius: 5px;
+    background-color: purple;
+}
+.apple::before{
+    border-radius: 2px;
+}
+.apple::after{
+    border-radius: 20px;
+}
