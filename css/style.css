@@ -1,3 +1,7 @@
+body{
+    background-color: aquamarine;
+}
+
 .grid{
     width: 200px;
     height: 200px;
@@ -13,12 +17,12 @@
 
 .snake{
     border-radius: 5px;
-    background-color: blue;
+    background-color: rgb(232, 83, 83);
 }
 
 .apple{
     border-radius: 5px;
-    background-color: purple;
+    background-color: rgb(222, 252, 86);
 }
 .apple::before{
     border-radius: 2px;
